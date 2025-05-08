@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #0056a3; /* Less bright shade of blue */
+}
+
+button {
+    background: #0056a3; /* Less bright shade of blue */
+}
+
+button:hover {
+    background: #003d73; /* Darker shade for hover effect */
+}
+
+.hover-area {
+    border: 2px dashed #0056a3; /* Adjusted border color */
+}
+
+.hover-area:hover {
+    border-color: #1e7e34; /* Adjusted hover border color */
+}
+
+.tab {
+    border: 1px solid #0056a3; /* Adjusted tab border color */
+    color: #0056a3; /* Adjusted tab text color */
+}
+
+.tab:hover {
+    background: #0056a3; /* Adjusted hover background */
+}
+
+footer {
+    background: #0056a3; /* Adjusted footer background */
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
+
+/* Section Styles */
+.section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Hover Area */
+.hover-area {
+    margin: 10px 0;
+    padding: 15px;
+    background: #e9ecef;
+    border: 2px dashed #007bff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.hover-area:hover {
+    background: #d4edda;
+    border-color: #28a745;
+}
+
+/* Input and Output */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#keyOutput {
+    font-style: italic;
+    color: #555;
+}
+
+/* Image Gallery */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.tab {
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background: #fff;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+#formMessage {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #28a745;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
